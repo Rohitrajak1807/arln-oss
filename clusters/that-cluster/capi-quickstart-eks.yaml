@@ -31,7 +31,7 @@ metadata:
   name: capi-quickstart-eks-md-0
 spec:
   clusterName: capi-quickstart-eks
-  replicas: 3
+  replicas: 5
   selector:
     matchLabels: null
   template:
