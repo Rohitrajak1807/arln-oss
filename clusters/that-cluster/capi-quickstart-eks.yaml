@@ -56,7 +56,7 @@ spec:
   template:
     spec:
       iamInstanceProfile: nodes.cluster-api-provider-aws.sigs.k8s.io
-      instanceType: t2.large
+      instanceType: t2.medium
       sshKeyName: rrajak
 ---
 apiVersion: bootstrap.cluster.x-k8s.io/v1beta1
