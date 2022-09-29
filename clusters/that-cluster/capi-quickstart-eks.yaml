@@ -31,7 +31,7 @@ metadata:
   name: capi-quickstart-eks-md-0
 spec:
   clusterName: capi-quickstart-eks
-  replicas: 5
+  replicas: 2
   selector:
     matchLabels: null
   template:
@@ -56,7 +56,7 @@ spec:
   template:
     spec:
       iamInstanceProfile: nodes.cluster-api-provider-aws.sigs.k8s.io
-      instanceType: t2.medium
+      instanceType: t2.large
       sshKeyName: rrajak
 ---
 apiVersion: bootstrap.cluster.x-k8s.io/v1beta1
