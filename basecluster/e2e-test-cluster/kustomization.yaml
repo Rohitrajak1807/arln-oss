@@ -1,0 +1,5 @@
+resources:
+- capi-quickstart-e2e-test.yaml
+
+configurations:
+- configurations.yaml
